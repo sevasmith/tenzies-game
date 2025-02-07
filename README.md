@@ -9,9 +9,9 @@ A fun and addictive dice game built with React! Try to match all dice to the sam
 - 💻📱 **Responsive Design** – Works on both desktop and mobile.
 - 🎨 **Minimalistic & Fun UI** – A clean and engaging user interface.
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-![Tenzies Game Screenshot](src/assets/tenzies-game.png)
+<img src="src/assets/tenzies-game.png" alt="Screenshot" width="500">
 
 ## 🛠️ Installation & Usage
 
