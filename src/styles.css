@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Finger Paint, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #34210b;
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+
+}
+
+body #root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  height: calc(100% - 80px);
+  width: calc(100% - 60px);
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.die-container {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+  gap: 20px;
+  padding: 10px 0 0;
+}
+
+.die {
+  display: grid;
+  padding: 3px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #ad2607;
+  cursor: pointer;
+}
+
+.roll-button {
+  margin: 20px 0;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #ad2607;
+  border-radius: 5px;
+  background-color: wheat;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 56px;
+  color: #ad2607;
+  margin-top: 20px;
+  cursor: default;
+}
+
+.instructions {
+  font-size: 14px;
+  width: 300px;
+  padding: 20px 0 40px;
+  text-align: center;
+  cursor: default;
+}
+
+.dot {
+  margin: 3px 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 10px;
+}
+
+.stats-container {
+  margin: 0 0 20px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+}
+
+.rolls-count, .time {
+height: 30px;
+width: 50px;
+border-radius: 5px;
+border: 2px solid #ad2607;
+background-color: wheat;
+
+}
+
+.best-time {
+  height: 30px;
+  width: 190px;
+  border-radius: 5px;
+  border: 2px solid #ad2607;
+  background-color: wheat;
+}
+
+@media screen and (max-width: 600px) {
+
+  .die {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+  }
+
+  .roll-button {
+    width: 160px;
+  }
+  
+  .title {
+    font-size: 48px;
+  }
+  
+  .dot {
+    width: 5px;
+    height: 5px;
+  }
+  
+  .rolls-count, .time {
+  width: 40px;  
+  }
+  
+  .best-time {
+    width: 160px;
+  }
+
+}
