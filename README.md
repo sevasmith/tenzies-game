@@ -17,7 +17,7 @@ A fun and addictive dice game built with React! Try to match all dice to the sam
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/tenzies-game.git
+   git clone https://github.com/sevasmith/tenzies-game.git
    cd tenzies-game
    ```
 
