@@ -13,7 +13,7 @@ body {
   background-color: #34210b;
   height: 100vh;
   width: auto;
-  overflow: hidden;
+  overflow: auto;
   min-height: fit-content;
   min-width: fit-content;
 
